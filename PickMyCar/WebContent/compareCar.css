@@ -1,0 +1,154 @@
+@charset "ISO-8859-1";
+body{
+	
+	font-family: Arial ;
+	background-size: cover ;
+	background:#778899 ;
+	
+}
+h1{
+	margin-top: 0px ;
+	text-align:center ;
+	font-size:45px ;
+}
+.comp
+{
+	position: absolute;
+	top: 65%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 850px;
+	height: 770px;
+	padding: 60px 40px;
+	box-sizing: border-box;
+	background: #ADD8E6;
+	box-shadow: 0 15px 25px rgba(0,0,0,.5);
+	border-radius: 10px
+}
+th{
+	 text-align: left ;
+	 width:200px;
+	 border-bottom: 1px solid yellowgreen; 
+    padding: 10px; 
+}
+td{
+	
+	width:300px;
+	 border-bottom: 1px solid yellowgreen; 
+    padding-left: 30px; 
+}
+table{
+top: 50% ;
+border-collapse: collapse;
+}
+ 
+
+#list1{
+	width:210px;
+  margin-left:250px ;
+  margin-bottom:10px ;
+   border: 80px;
+	border-bottom: 1px solid #fff;
+    -webkit-appearance: button;
+    appearance: button;
+	  border-radius: 5px ;
+	 background: #fff;
+	outline: none;
+	height: 40px;
+	color: #16A085 ;
+	font-size: 16px;
+}
+#list2{
+	width:210px;
+  margin-left:80px ;
+   margin-top:0px ;
+  margin-bottom:10px ;
+   border: 80px;
+	border-bottom: 1px solid #fff;
+	 background: #fff;
+    -webkit-appearance: button;
+    appearance: button;
+     border-radius: 5px ;
+	outline: none;
+	height: 40px;
+	color: #16A085 ;
+	font-size: 16px;
+}
+#s1
+{
+	border: none;
+	outline: none;
+	height: 25px;
+	color: #fff;
+	font-size: 16px;
+	background: #008000;
+	cursor: pointer;
+	border-radius: 8px;
+	 margin-left:250px ;
+}
+#s2
+{
+	border: none;
+	outline: none;
+	height: 25px;
+	color: #fff;
+	font-size: 16px;
+	background:#008000;
+	cursor: pointer;
+	border-radius: 8px;
+	 margin-left:230px ;
+	 margin-bottom:10px ;
+	
+}
+#s3
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	width:100px ;
+	color: #fff;
+	font-size: 16px;
+	background: #03a9f4;
+	cursor: pointer;
+	border-radius: 20px;
+	 margin-left:290px ;
+}
+#s4
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	width:100px ;
+	color: #fff;
+	font-size: 16px;
+	background: #03a9f4;
+	cursor: pointer;
+	border-radius:20px;
+	 margin-left:200px ;
+	 margin-top:10px ;
+	
+}
+#s1:hover
+{
+	background: #03a9f4;
+	color: #262626;
+}
+
+#s2:hover
+{
+	background: #03a9f4;
+	color: #262626;
+}
+
+#s3:hover
+{
+	background: #03a9f4;
+	color: #262626;
+}
+
+#s4:hover
+{
+	background: #03a9f4;
+	color: #262626;
+}
+

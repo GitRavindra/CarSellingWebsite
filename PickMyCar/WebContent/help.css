@@ -1,0 +1,29 @@
+@charset "ISO-8859-1";
+body
+{
+  background:DimGray;
+}
+.form-wrap
+{
+   max-width:750px;
+   border-radius:20px;
+   margin:auto;
+   background:SlateGray;
+   box-sizing:border-box;
+   padding:40px;
+   color:#fff;
+   margin-top:100px;
+   height:45%;
+   top:50%;
+}
+a
+{
+	text-decoration:none;
+	color:white;
+	padding:10px;
+	font-size:18px;
+}
+h1
+{
+   text-align:center;
+}

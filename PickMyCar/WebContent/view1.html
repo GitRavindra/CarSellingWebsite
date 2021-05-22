@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+ <title>Select brand</title>
+     <link rel="stylesheet" href="view1.css">
+      <script type="text/javascript" src="Login.js"> </script>
+</head>
+<body>
+<a href="Front"> <img src="images/icons8-home-24.png" width="60px"/> <br> &nbsp;Home</a>
+   <div class="form-wrap" id="first">
+         <form action="SelectBrand" name="f1" onsubmit="return view1()">
+            <h1> Select Budget</h1></br> 
+           <tr>
+              <td>
+			   <label> Min </label>
+			   <input type="number" name="min" min="1" max="100" value="1" id="r1" /> 
+			   <select name="s1">
+			     <option>lakh</option>
+			     <option>thousand </option> 
+			   </select>
+			   <br>
+			   <label> Max </label>
+			   <input type="number" name="max" min="1" max="100" value="8" id="r2" >
+			    <select name="s2">
+			     <option>lakh</option>
+			     <option>thousand </option> 
+			   </select>
+             </td>
+           </tr>
+           <br><br>
+               <button type="button" onclick="goBack()">Back</button>&nbsp; 
+              <input type="submit"  value="Next" name="b2"> <br>
+          </form>
+         </div>
+</body>
+</html>

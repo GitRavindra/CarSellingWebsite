@@ -1,0 +1,51 @@
+body
+{
+  background:url("images/rav.jpg");
+}
+h1
+{
+  padding-bottom:30px;	
+}
+label
+{
+	font-size:30px;
+}
+div
+{
+	text-align:center;
+}
+.form-wrap
+{
+   max-width:770px;
+   border-radius:20px;
+   margin:auto;
+   background: rgba(0,0,0,.5);
+   box-sizing:border-box;
+   padding-left:80px;
+   color:#fff;
+   font-size: 24px;
+}
+input[type=button]
+{
+    border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	width: 160px;
+	height:45px ;
+	margin-top:40px;
+	margin-left:40px;
+	color: #fff;
+    border-color: #000000;
+    border-width: medium;
+    border-radius: 8px;
+    background-color: gray;
+    font-family: sans-serif;
+    font-size: 20px;
+	
+}
+ input[type="button"]:hover
+{
+  background: #2ecc71;
+
+}

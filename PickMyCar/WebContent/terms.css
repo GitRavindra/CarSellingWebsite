@@ -1,0 +1,45 @@
+@charset "ISO-8859-1";
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  height: 100%;
+  width: 100%;
+  background: Black;
+  background:url("images/19581171777f0546dd7752a0b1381ac5.jpg");
+  font-family: Open Sans;
+  display: flex;
+  justify-content: center;
+}
+.form-wrap
+{
+   width:550px;
+   height:550px;
+   border-radius:20px;
+   margin:auto;
+   background: black;
+   box-sizing:border-box;
+   padding:30px;
+   color:#fff;
+font-size: 22px;
+   margin-top:100px;
+}
+input[type=button]
+{
+ width:45%;
+ box-sizing:border-box;
+ padding:10px 0;
+ margin-top:30px;
+ outline:none;
+ border:none;
+ background:white;
+ border-radius:20px;
+ font-size:20px;
+ color:Black;
+}
+input[type=button]:hover
+{
+  background:#c0c0c0;
+  opacity:0.8;
+}

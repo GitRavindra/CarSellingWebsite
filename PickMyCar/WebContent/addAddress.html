@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Add Address</title>
+ <link rel="stylesheet" href="addAddress.css" />
+ <script type="text/javascript" src="Login.js"> </script>
+</head>
+<body>
+<div class="contact-head">
+<h1 >Enter Your address</h1>
+</div>
+<div class="contact-form">
+<form  id="contact-form"  action="Address" name="f1" onsubmit="return addAddress()">
+ <input name="State" type="text" class="form-control" placeholder="State"  required>
+<br>
+<input name="City" type="text" class="form-control" placeholder="City"  required>
+<br>
+<input name="Zipcode" type="number" class="form-control" placeholder="Pincode"  required>
+<br>
+<input name="House" type="text" class="form-control" placeholder="flat/Building/House No"  required>
+<br>
+<input name="Street" type="text" class="form-control" placeholder="Street/Colony"  required>
+<br>
+<input name="Landmark" type="text" class="form-control" placeholder="Landmark"  required>
+<br>
+<input name="Country" type="text" class="form-control" placeholder="Country" value="India"  disabled>
+<br>
+<br>
+</form>
+<button type="submit" form="contact-form" name="ok" value="ok">Ok</button> 
+<button type="submit" form="contact-form" name="update" value="update">Update</button>
+&ensp;&ensp;&ensp;&ensp;
+<button type="button" onclick="goBack()" form="contact-form" >Cancel</button> 
+</div>
+</body>
+</html>
